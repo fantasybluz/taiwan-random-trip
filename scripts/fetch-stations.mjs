@@ -1,7 +1,8 @@
-// 從台鐵開放資料撈「有區間車停靠」的車站，輸出 src/data/stations.json
+// 從台鐵開放資料撈「有區間車或自強3000停靠」的車站，輸出 src/data/stations.json
 //
 // 車站清單用「車站基本資料集」，但裡面也有調車場、號誌站這些不載客的站，
-// 所以再抓接下來幾天的每日時刻表，只留下區間車或區間快有停的站。
+// 所以再抓接下來一週的每日時刻表，數每一站一週有幾班區間車、幾班自強3000停，
+// 兩種都沒停的站就不收。
 //
 // 用法：npm run stations
 
@@ -12,8 +13,14 @@ const STATION_URL = `${ODS}/0518b833e8964d53bfea3f7691aea0ee`
 const SCHEDULE_LIST_URL = `${ODS}/railway_schedule/JSON/list`
 const OUTPUT = new URL('../src/data/stations.json', import.meta.url)
 
-// 時刻表的 CarClass：1131 區間車、1132 區間快（南迴線的區間車在這裡是區間快）
-const LOCAL_CAR_CLASSES = new Set(['1131', '1132'])
+// 時刻表的 CarClass：
+// - 區間車：1131 區間車、1132 區間快（南迴線的區間車在這裡是區間快）
+// - 自強3000：110G、110H，這兩種每一班的備註都寫著「騰雲座艙」，那是 EMU3000 才有的商務車廂
+const TRAIN_TYPES = {
+  local: new Set(['1131', '1132']),
+  emu3000: new Set(['110G', '110H']),
+}
+const EMU3000_MARK = '騰雲座艙'
 // 抓一週，平日和假日的班次都算到
 const DAYS = 7
 
@@ -61,21 +68,39 @@ function countyOf(address) {
 const stations = await fetchJson(STATION_URL)
 const byCode = new Map(stations.map((s) => [s.stationCode, s]))
 
+// 站碼 → { local: 班數, emu3000: 班數 }
 const stops = new Map()
+// 有騰雲座艙卻不在自強3000車種裡（或反過來）的車，代表台鐵改了車種代碼
+const mismatched = new Map()
 const files = await scheduleUrls()
 for (const file of files) {
   const { TrainInfos } = await fetchJson(file.url)
   for (const train of TrainInfos) {
-    if (!LOCAL_CAR_CLASSES.has(train.CarClass)) continue
-    for (const { Station } of train.TimeInfos) {
-      stops.set(Station, (stops.get(Station) ?? 0) + 1)
+    const marked = train.Note.includes(EMU3000_MARK)
+    if (marked !== TRAIN_TYPES.emu3000.has(train.CarClass)) {
+      mismatched.set(train.CarClass, (mismatched.get(train.CarClass) ?? 0) + 1)
+    }
+    for (const [type, classes] of Object.entries(TRAIN_TYPES)) {
+      if (!classes.has(train.CarClass)) continue
+      for (const { Station } of train.TimeInfos) {
+        const counts = stops.get(Station) ?? { local: 0, emu3000: 0 }
+        counts[type] += 1
+        stops.set(Station, counts)
+      }
     }
   }
   console.log(`時刻表 ${file.date}：${TrainInfos.length} 班車`)
 }
+if (mismatched.size > 0) {
+  const list = [...mismatched].map(([carClass, n]) => `${carClass}（${n} 班）`).join('、')
+  console.warn(`⚠ 這些車種的「${EMU3000_MARK}」備註跟自強3000車種對不起來，檢查 TRAIN_TYPES.emu3000：${list}`)
+}
+
+// 抓到的天數不滿一週時照比例換算
+const perWeek = (count) => Math.round((count * 7) / files.length)
 
 const result = []
-for (const [code, count] of stops) {
+for (const [code, counts] of stops) {
   const raw = byCode.get(code)
   const station = raw
     ? { name: raw.stationName, ename: raw.stationEName, address: raw.stationAddrTw }
@@ -90,8 +115,11 @@ for (const [code, count] of stops) {
     ename: station.ename,
     county: countyOf(station.address),
     address: station.address,
-    // 一天平均有幾班區間車停
-    dailyStops: Math.round(count / files.length),
+    // 一週有幾班停靠；有停但一週不到一班的算 1，才不會被當成沒停
+    weeklyStops: {
+      local: counts.local > 0 ? Math.max(1, perWeek(counts.local)) : 0,
+      emu3000: counts.emu3000 > 0 ? Math.max(1, perWeek(counts.emu3000)) : 0,
+    },
   })
 }
 
@@ -99,8 +127,9 @@ for (const [code, count] of stops) {
 result.sort((a, b) => a.code.localeCompare(b.code))
 
 const skipped = stations.filter((s) => !stops.has(s.stationCode))
-console.log(`沒有區間車停的站：${skipped.map((s) => s.stationName).join('、')}`)
-console.log(`共 ${result.length} 站，寫入 ${OUTPUT.pathname}`)
+const count = (type) => result.filter((s) => s.weeklyStops[type] > 0).length
+console.log(`兩種車都沒停的站：${skipped.map((s) => s.stationName).join('、')}`)
+console.log(`區間車 ${count('local')} 站、自強3000 ${count('emu3000')} 站，共 ${result.length} 站，寫入 ${OUTPUT.pathname}`)
 
 const date = today()
 const output = {

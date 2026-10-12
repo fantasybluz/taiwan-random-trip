@@ -241,7 +241,8 @@ export function paintWheel(
       const a = mod(angle[i] - rotation, 360)
       const slice = Math.min(count - 1, Math.floor(a / sliceDeg))
       const fromEdge = Math.min(a - slice * sliceDeg, (slice + 1) * sliceDeg - a) * DEG * r
-      if (count > 1 && fromEdge < 0.5) pixels[i] = c.ink
+      // 分隔線剛好落在兩排像素中間時兩邊距離都是 0.5，浮點誤差會讓線斷斷續續，門檻放寬一點畫成實線
+      if (count > 1 && fromEdge < 0.55) pixels[i] = c.ink
       else pixels[i] = r > slices - 2.5 ? edges[slice] : fills[slice]
       continue
     }

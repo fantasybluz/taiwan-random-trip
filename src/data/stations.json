@@ -7,7 +7,10 @@
       "ename": "Keelung",
       "county": "基隆市",
       "address": "基隆市中山區中山一路 16 之 1 號",
-      "dailyStops": 108
+      "weeklyStops": {
+        "local": 759,
+        "emu3000": 0
+      }
     },
     {
       "code": "0910",
@@ -15,7 +18,10 @@
       "ename": "Sankeng",
       "county": "基隆市",
       "address": "基隆市仁愛區德厚里龍安街 206 號",
-      "dailyStops": 105
+      "weeklyStops": {
+        "local": 738,
+        "emu3000": 0
+      }
     },
     {
       "code": "0920",
@@ -23,7 +29,10 @@
       "ename": "Badu",
       "county": "基隆市",
       "address": "基隆市暖暖區八南里八堵路 142 號",
-      "dailyStops": 194
+      "weeklyStops": {
+        "local": 1355,
+        "emu3000": 30
+      }
     },
     {
       "code": "0930",
@@ -31,7 +40,10 @@
       "ename": "Qidu",
       "county": "基隆市",
       "address": "基隆市七堵區長興里東新街 2 號",
-      "dailyStops": 201
+      "weeklyStops": {
+        "local": 1409,
+        "emu3000": 234
+      }
     },
     {
       "code": "0940",
@@ -39,7 +51,10 @@
       "ename": "Baifu",
       "county": "基隆市",
       "address": "基隆市七堵區堵南里明德三路 1 之 1 號",
-      "dailyStops": 165
+      "weeklyStops": {
+        "local": 1154,
+        "emu3000": 0
+      }
     },
     {
       "code": "0950",
@@ -47,7 +62,10 @@
       "ename": "Wudu",
       "county": "新北市",
       "address": "新北市汐止區長安里長安路 17 號",
-      "dailyStops": 165
+      "weeklyStops": {
+        "local": 1154,
+        "emu3000": 0
+      }
     },
     {
       "code": "0960",
@@ -55,7 +73,10 @@
       "ename": "Xizhi",
       "county": "新北市",
       "address": "新北市汐止區信望里信義路 1 號",
-      "dailyStops": 193
+      "weeklyStops": {
+        "local": 1353,
+        "emu3000": 78
+      }
     },
     {
       "code": "0970",
@@ -63,7 +84,10 @@
       "ename": "Xike",
       "county": "新北市",
       "address": "新北市汐止區大同里大同路二段 182 號",
-      "dailyStops": 182
+      "weeklyStops": {
+        "local": 1274,
+        "emu3000": 0
+      }
     },
     {
       "code": "0980",
@@ -71,7 +95,10 @@
       "ename": "Nangang",
       "county": "臺北市",
       "address": "臺北市南港區南港里南港路一段 313 號 B2",
-      "dailyStops": 193
+      "weeklyStops": {
+        "local": 1353,
+        "emu3000": 215
+      }
     },
     {
       "code": "0990",
@@ -79,7 +106,10 @@
       "ename": "Songshan",
       "county": "臺北市",
       "address": "臺北市信義區松山路 11 號B1",
-      "dailyStops": 195
+      "weeklyStops": {
+        "local": 1367,
+        "emu3000": 394
+      }
     },
     {
       "code": "1000",
@@ -87,7 +117,10 @@
       "ename": "Taipei",
       "county": "臺北市",
       "address": "臺北市中正區黎明里北平西路 3 號",
-      "dailyStops": 195
+      "weeklyStops": {
+        "local": 1367,
+        "emu3000": 403
+      }
     },
     {
       "code": "1010",
@@ -95,7 +128,10 @@
       "ename": "Wanhua",
       "county": "臺北市",
       "address": "臺北市萬華區富福里康定路 382 號",
-      "dailyStops": 171
+      "weeklyStops": {
+        "local": 1196,
+        "emu3000": 0
+      }
     },
     {
       "code": "1020",
@@ -103,7 +139,10 @@
       "ename": "Banqiao",
       "county": "新北市",
       "address": "新北市板橋區新民里縣民大道二段 7 號（縣民大道側）",
-      "dailyStops": 195
+      "weeklyStops": {
+        "local": 1367,
+        "emu3000": 403
+      }
     },
     {
       "code": "1030",
@@ -111,7 +150,10 @@
       "ename": "Fuzhou",
       "county": "新北市",
       "address": "新北市板橋區僑中里僑中二街 156 號",
-      "dailyStops": 166
+      "weeklyStops": {
+        "local": 1161,
+        "emu3000": 0
+      }
     },
     {
       "code": "1040",
@@ -119,7 +161,10 @@
       "ename": "Shulin",
       "county": "新北市",
       "address": "新北市樹林區樹北里鎮前街 112 號",
-      "dailyStops": 196
+      "weeklyStops": {
+        "local": 1370,
+        "emu3000": 213
+      }
     },
     {
       "code": "1050",
@@ -127,7 +172,10 @@
       "ename": "South Shulin",
       "county": "新北市",
       "address": "新北市樹林區東山里中山路二段 230 號",
-      "dailyStops": 129
+      "weeklyStops": {
+        "local": 904,
+        "emu3000": 0
+      }
     },
     {
       "code": "1060",
@@ -135,7 +183,10 @@
       "ename": "Shanjia",
       "county": "新北市",
       "address": "新北市樹林區中山路三段108號",
-      "dailyStops": 130
+      "weeklyStops": {
+        "local": 909,
+        "emu3000": 0
+      }
     },
     {
       "code": "1070",
@@ -143,7 +194,10 @@
       "ename": "Yingge",
       "county": "新北市",
       "address": "新北市鶯歌區東鶯里文化路 68-1號",
-      "dailyStops": 148
+      "weeklyStops": {
+        "local": 1036,
+        "emu3000": 21
+      }
     },
     {
       "code": "1075",
@@ -151,7 +205,10 @@
       "ename": "Fengming",
       "county": "新北市",
       "address": "新北市鶯歌區鳳鳴里鳳一路 2 號",
-      "dailyStops": 129
+      "weeklyStops": {
+        "local": 904,
+        "emu3000": 0
+      }
     },
     {
       "code": "1080",
@@ -159,7 +216,10 @@
       "ename": "Taoyuan",
       "county": "桃園市",
       "address": "桃園市桃園區武陵里中正路 1 號",
-      "dailyStops": 147
+      "weeklyStops": {
+        "local": 1029,
+        "emu3000": 169
+      }
     },
     {
       "code": "1090",
@@ -167,7 +227,10 @@
       "ename": "Neili",
       "county": "桃園市",
       "address": "桃園市中壢區中原里中華路一段 267 號",
-      "dailyStops": 144
+      "weeklyStops": {
+        "local": 1005,
+        "emu3000": 0
+      }
     },
     {
       "code": "1100",
@@ -175,7 +238,10 @@
       "ename": "Zhongli_Taoyuan",
       "county": "桃園市",
       "address": "桃園市中壢區石頭里中和路 139 號",
-      "dailyStops": 144
+      "weeklyStops": {
+        "local": 1005,
+        "emu3000": 141
+      }
     },
     {
       "code": "1105",
@@ -183,7 +249,10 @@
       "ename": "Pingzhen",
       "county": "桃園市",
       "address": "桃園市平鎮區新富一街與新富三街路口",
-      "dailyStops": 125
+      "weeklyStops": {
+        "local": 876,
+        "emu3000": 0
+      }
     },
     {
       "code": "1110",
@@ -191,7 +260,10 @@
       "ename": "Puxin",
       "county": "桃園市",
       "address": "桃園市楊梅區埔心里永美路 208 號",
-      "dailyStops": 141
+      "weeklyStops": {
+        "local": 984,
+        "emu3000": 0
+      }
     },
     {
       "code": "1120",
@@ -199,7 +271,10 @@
       "ename": "Yangmei",
       "county": "桃園市",
       "address": "桃園市楊梅區楊梅里大成路 256 號",
-      "dailyStops": 136
+      "weeklyStops": {
+        "local": 951,
+        "emu3000": 7
+      }
     },
     {
       "code": "1130",
@@ -207,7 +282,10 @@
       "ename": "Fugang",
       "county": "桃園市",
       "address": "桃園市楊梅區富岡里成功路 37 號",
-      "dailyStops": 121
+      "weeklyStops": {
+        "local": 846,
+        "emu3000": 0
+      }
     },
     {
       "code": "1140",
@@ -215,7 +293,10 @@
       "ename": "Xinfu",
       "county": "桃園市",
       "address": "桃園市楊梅區富豐里新明街",
-      "dailyStops": 121
+      "weeklyStops": {
+        "local": 846,
+        "emu3000": 0
+      }
     },
     {
       "code": "1150",
@@ -223,7 +304,10 @@
       "ename": "Beihu",
       "county": "新竹縣",
       "address": "新竹縣湖口鄉東興村北湖路 1 號",
-      "dailyStops": 150
+      "weeklyStops": {
+        "local": 1049,
+        "emu3000": 0
+      }
     },
     {
       "code": "1160",
@@ -231,7 +315,10 @@
       "ename": "Hukou",
       "county": "新竹縣",
       "address": "新竹縣湖口鄉仁勢村中山路二段 121 號",
-      "dailyStops": 132
+      "weeklyStops": {
+        "local": 925,
+        "emu3000": 7
+      }
     },
     {
       "code": "1170",
@@ -239,7 +326,10 @@
       "ename": "Xinfeng",
       "county": "新竹縣",
       "address": "新竹縣新豐鄉山崎村新興路 202 號",
-      "dailyStops": 130
+      "weeklyStops": {
+        "local": 913,
+        "emu3000": 0
+      }
     },
     {
       "code": "1180",
@@ -247,7 +337,10 @@
       "ename": "Zhubei",
       "county": "新竹縣",
       "address": "新竹縣竹北市竹義里和平街 59 號",
-      "dailyStops": 133
+      "weeklyStops": {
+        "local": 934,
+        "emu3000": 0
+      }
     },
     {
       "code": "1190",
@@ -255,7 +348,10 @@
       "ename": "North Hsinchu",
       "county": "新竹市",
       "address": "新竹市 東區東園里中華路一段 291 之 2 號",
-      "dailyStops": 220
+      "weeklyStops": {
+        "local": 1538,
+        "emu3000": 0
+      }
     },
     {
       "code": "1191",
@@ -263,7 +359,10 @@
       "ename": "Qianjia",
       "county": "新竹市",
       "address": "新竹市 東區水源里千甲路 142 號",
-      "dailyStops": 96
+      "weeklyStops": {
+        "local": 674,
+        "emu3000": 0
+      }
     },
     {
       "code": "1192",
@@ -271,7 +370,10 @@
       "ename": "Xinzhuang",
       "county": "新竹市",
       "address": "新竹市 東區新莊里關東路 310 號",
-      "dailyStops": 96
+      "weeklyStops": {
+        "local": 674,
+        "emu3000": 0
+      }
     },
     {
       "code": "1193",
@@ -279,7 +381,10 @@
       "ename": "Zhuzhong",
       "county": "新竹縣",
       "address": "新竹縣竹東鎮頭重里竹中路 145 號",
-      "dailyStops": 119
+      "weeklyStops": {
+        "local": 832,
+        "emu3000": 0
+      }
     },
     {
       "code": "1194",
@@ -287,7 +392,10 @@
       "ename": "Liujia",
       "county": "新竹縣",
       "address": "新竹縣竹北市隘口里復興三路二段 229 號",
-      "dailyStops": 82
+      "weeklyStops": {
+        "local": 574,
+        "emu3000": 0
+      }
     },
     {
       "code": "1201",
@@ -295,7 +403,10 @@
       "ename": "Shangyuan",
       "county": "新竹縣",
       "address": "新竹縣竹東鎮上員里光明路 (無站房)",
-      "dailyStops": 37
+      "weeklyStops": {
+        "local": 258,
+        "emu3000": 0
+      }
     },
     {
       "code": "1202",
@@ -303,7 +414,10 @@
       "ename": "Ronghua",
       "county": "新竹縣",
       "address": "新竹縣竹東鎮仁愛里北興路 (無站房)",
-      "dailyStops": 37
+      "weeklyStops": {
+        "local": 258,
+        "emu3000": 0
+      }
     },
     {
       "code": "1203",
@@ -311,7 +425,10 @@
       "ename": "Zhudong",
       "county": "新竹縣",
       "address": "新竹縣竹東鎮雞林里東林路 196 號",
-      "dailyStops": 37
+      "weeklyStops": {
+        "local": 258,
+        "emu3000": 0
+      }
     },
     {
       "code": "1204",
@@ -319,7 +436,10 @@
       "ename": "Hengshan",
       "county": "新竹縣",
       "address": "新竹縣橫山鄉橫山村橫山路 97 號 (無站房)",
-      "dailyStops": 36
+      "weeklyStops": {
+        "local": 251,
+        "emu3000": 0
+      }
     },
     {
       "code": "1205",
@@ -327,7 +447,10 @@
       "ename": "Jiuzantou",
       "county": "新竹縣",
       "address": "新竹縣橫山鄉大肚村中豐路二段 286 巷 29 號",
-      "dailyStops": 36
+      "weeklyStops": {
+        "local": 251,
+        "emu3000": 0
+      }
     },
     {
       "code": "1206",
@@ -335,7 +458,10 @@
       "ename": "Hexing",
       "county": "新竹縣",
       "address": "新竹縣橫山鄉力行村中山街一段 17 號",
-      "dailyStops": 36
+      "weeklyStops": {
+        "local": 251,
+        "emu3000": 0
+      }
     },
     {
       "code": "1207",
@@ -343,7 +469,10 @@
       "ename": "Fugui",
       "county": "新竹縣",
       "address": "新竹縣橫山鄉豐田村中山街一段 (無站房)",
-      "dailyStops": 36
+      "weeklyStops": {
+        "local": 251,
+        "emu3000": 0
+      }
     },
     {
       "code": "1208",
@@ -351,7 +480,10 @@
       "ename": "Neiwan",
       "county": "新竹縣",
       "address": "新竹縣橫山鄉內灣村中正路 6 號",
-      "dailyStops": 36
+      "weeklyStops": {
+        "local": 251,
+        "emu3000": 0
+      }
     },
     {
       "code": "1210",
@@ -359,7 +491,10 @@
       "ename": "Hsinchu",
       "county": "新竹市",
       "address": "新竹市 東區榮光里中華路二段 445 號",
-      "dailyStops": 253
+      "weeklyStops": {
+        "local": 1771,
+        "emu3000": 155
+      }
     },
     {
       "code": "1220",
@@ -367,7 +502,10 @@
       "ename": "Sanxingqiao",
       "county": "新竹市",
       "address": "新竹市 香山區香山里元培街 32 巷 30 號",
-      "dailyStops": 109
+      "weeklyStops": {
+        "local": 763,
+        "emu3000": 0
+      }
     },
     {
       "code": "1230",
@@ -375,7 +513,10 @@
       "ename": "Xiangshan",
       "county": "新竹市",
       "address": "新竹市 香山區朝山里中華路五段 347 巷 2 弄 27 號",
-      "dailyStops": 109
+      "weeklyStops": {
+        "local": 763,
+        "emu3000": 0
+      }
     },
     {
       "code": "1240",
@@ -383,7 +524,10 @@
       "ename": "Qiding",
       "county": "苗栗縣",
       "address": "苗栗縣竹南鎮崎頂里北戶 55 號",
-      "dailyStops": 109
+      "weeklyStops": {
+        "local": 763,
+        "emu3000": 0
+      }
     },
     {
       "code": "1250",
@@ -391,7 +535,10 @@
       "ename": "Zhunan",
       "county": "苗栗縣",
       "address": "苗栗縣竹南鎮竹南里中山路 166 號",
-      "dailyStops": 129
+      "weeklyStops": {
+        "local": 905,
+        "emu3000": 98
+      }
     },
     {
       "code": "2110",
@@ -399,7 +546,10 @@
       "ename": "Tanwen",
       "county": "苗栗縣",
       "address": "苗栗縣造橋鄉談文村仁愛路 29 號",
-      "dailyStops": 40
+      "weeklyStops": {
+        "local": 280,
+        "emu3000": 0
+      }
     },
     {
       "code": "2120",
@@ -407,7 +557,10 @@
       "ename": "Dashan",
       "county": "苗栗縣",
       "address": "苗栗縣後龍鎮大山里明山路 180 號",
-      "dailyStops": 40
+      "weeklyStops": {
+        "local": 280,
+        "emu3000": 0
+      }
     },
     {
       "code": "2130",
@@ -415,7 +568,10 @@
       "ename": "Houlong",
       "county": "苗栗縣",
       "address": "苗栗縣後龍鎮北龍里車站街 127-2 號",
-      "dailyStops": 47
+      "weeklyStops": {
+        "local": 329,
+        "emu3000": 49
+      }
     },
     {
       "code": "2140",
@@ -423,7 +579,10 @@
       "ename": "Longgang",
       "county": "苗栗縣",
       "address": "苗栗縣後龍鎮龍津里7鄰公司寮 85 號",
-      "dailyStops": 40
+      "weeklyStops": {
+        "local": 280,
+        "emu3000": 0
+      }
     },
     {
       "code": "2150",
@@ -431,7 +590,10 @@
       "ename": "Baishatun",
       "county": "苗栗縣",
       "address": "苗栗縣通霄鎮白西里白西 131 號",
-      "dailyStops": 47
+      "weeklyStops": {
+        "local": 329,
+        "emu3000": 0
+      }
     },
     {
       "code": "2160",
@@ -439,7 +601,10 @@
       "ename": "Xinpu",
       "county": "苗栗縣",
       "address": "苗栗縣通霄鎮新埔里新埔 57 號",
-      "dailyStops": 40
+      "weeklyStops": {
+        "local": 280,
+        "emu3000": 0
+      }
     },
     {
       "code": "2170",
@@ -447,7 +612,10 @@
       "ename": "Tongxiao",
       "county": "苗栗縣",
       "address": "苗栗縣通霄鎮通西里中正路 109 號",
-      "dailyStops": 61
+      "weeklyStops": {
+        "local": 427,
+        "emu3000": 49
+      }
     },
     {
       "code": "2180",
@@ -455,7 +623,10 @@
       "ename": "Yuanli",
       "county": "苗栗縣",
       "address": "苗栗縣苑裡鎮苑北里中山路 165 號",
-      "dailyStops": 61
+      "weeklyStops": {
+        "local": 427,
+        "emu3000": 49
+      }
     },
     {
       "code": "2190",
@@ -463,7 +634,10 @@
       "ename": "Rinan",
       "county": "臺中市",
       "address": "臺中市大甲區孟春里中山路二段 140 巷 8 號",
-      "dailyStops": 54
+      "weeklyStops": {
+        "local": 378,
+        "emu3000": 0
+      }
     },
     {
       "code": "2200",
@@ -471,7 +645,10 @@
       "ename": "Dajia",
       "county": "臺中市",
       "address": "臺中市大甲區大甲里中山路一段 828 號",
-      "dailyStops": 74
+      "weeklyStops": {
+        "local": 518,
+        "emu3000": 49
+      }
     },
     {
       "code": "2210",
@@ -479,7 +656,10 @@
       "ename": "Taichung Port",
       "county": "臺中市",
       "address": "臺中市清水區頂湳里甲南路 2 號",
-      "dailyStops": 66
+      "weeklyStops": {
+        "local": 462,
+        "emu3000": 0
+      }
     },
     {
       "code": "2220",
@@ -487,7 +667,10 @@
       "ename": "Qingshui",
       "county": "臺中市",
       "address": "臺中市清水區南社里中正街 115 號",
-      "dailyStops": 73
+      "weeklyStops": {
+        "local": 511,
+        "emu3000": 49
+      }
     },
     {
       "code": "2230",
@@ -495,7 +678,10 @@
       "ename": "Shalu",
       "county": "臺中市",
       "address": "臺中市沙鹿區沙鹿里中正街 94 號",
-      "dailyStops": 74
+      "weeklyStops": {
+        "local": 518,
+        "emu3000": 49
+      }
     },
     {
       "code": "2240",
@@ -503,7 +689,10 @@
       "ename": "Longjing",
       "county": "臺中市",
       "address": "臺中市龍井區龍泉里龍新路 1 號",
-      "dailyStops": 66
+      "weeklyStops": {
+        "local": 462,
+        "emu3000": 0
+      }
     },
     {
       "code": "2250",
@@ -511,7 +700,10 @@
       "ename": "Dadu",
       "county": "臺中市",
       "address": "臺中市大肚區頂街里平和街 121 號",
-      "dailyStops": 69
+      "weeklyStops": {
+        "local": 483,
+        "emu3000": 7
+      }
     },
     {
       "code": "2260",
@@ -519,7 +711,10 @@
       "ename": "Zhuifen",
       "county": "臺中市",
       "address": "臺中市大肚區王田里追分街 13 號",
-      "dailyStops": 66
+      "weeklyStops": {
+        "local": 462,
+        "emu3000": 0
+      }
     },
     {
       "code": "3140",
@@ -527,7 +722,10 @@
       "ename": "Zaoqiao",
       "county": "苗栗縣",
       "address": "苗栗縣造橋鄉造橋村平仁路 54 號",
-      "dailyStops": 77
+      "weeklyStops": {
+        "local": 539,
+        "emu3000": 0
+      }
     },
     {
       "code": "3150",
@@ -535,7 +733,10 @@
       "ename": "Fengfu",
       "county": "苗栗縣",
       "address": "苗栗縣後龍鎮校椅里高鐵一路 66 號",
-      "dailyStops": 77
+      "weeklyStops": {
+        "local": 539,
+        "emu3000": 0
+      }
     },
     {
       "code": "3160",
@@ -543,7 +744,10 @@
       "ename": "Miaoli",
       "county": "苗栗縣",
       "address": "苗栗縣苗栗市上苗里為公路 1 號",
-      "dailyStops": 84
+      "weeklyStops": {
+        "local": 590,
+        "emu3000": 77
+      }
     },
     {
       "code": "3170",
@@ -551,7 +755,10 @@
       "ename": "Nanshi",
       "county": "苗栗縣",
       "address": "苗栗縣苗栗市新英里南勢 39 號",
-      "dailyStops": 46
+      "weeklyStops": {
+        "local": 322,
+        "emu3000": 0
+      }
     },
     {
       "code": "3180",
@@ -559,7 +766,10 @@
       "ename": "Tongluo",
       "county": "苗栗縣",
       "address": "苗栗縣銅鑼鄉銅鑼村大同路13號",
-      "dailyStops": 51
+      "weeklyStops": {
+        "local": 359,
+        "emu3000": 0
+      }
     },
     {
       "code": "3190",
@@ -567,7 +777,10 @@
       "ename": "Sanyi",
       "county": "苗栗縣",
       "address": "苗栗縣三義鄉雙湖村雙湖 90 號",
-      "dailyStops": 53
+      "weeklyStops": {
+        "local": 373,
+        "emu3000": 0
+      }
     },
     {
       "code": "3210",
@@ -575,7 +788,10 @@
       "ename": "Tai'an",
       "county": "臺中市",
       "address": "臺中市后里區泰安里安眉路 37 之 12 號",
-      "dailyStops": 48
+      "weeklyStops": {
+        "local": 336,
+        "emu3000": 0
+      }
     },
     {
       "code": "3220",
@@ -583,7 +799,10 @@
       "ename": "Houli",
       "county": "臺中市",
       "address": "臺中市后里區義里里甲后路一段 1 號",
-      "dailyStops": 81
+      "weeklyStops": {
+        "local": 569,
+        "emu3000": 0
+      }
     },
     {
       "code": "3230",
@@ -591,7 +810,10 @@
       "ename": "Fengyuan",
       "county": "臺中市",
       "address": "臺中市豐原區豐原里中正路 1-1號",
-      "dailyStops": 110
+      "weeklyStops": {
+        "local": 772,
+        "emu3000": 120
+      }
     },
     {
       "code": "3240",
@@ -599,7 +821,10 @@
       "ename": "Lilin",
       "county": "臺中市",
       "address": "臺中市潭子區潭豐路二段747號",
-      "dailyStops": 102
+      "weeklyStops": {
+        "local": 714,
+        "emu3000": 0
+      }
     },
     {
       "code": "3250",
@@ -607,7 +832,10 @@
       "ename": "Tanzi",
       "county": "臺中市",
       "address": "臺中市潭子區中山路二段352-1號",
-      "dailyStops": 110
+      "weeklyStops": {
+        "local": 772,
+        "emu3000": 0
+      }
     },
     {
       "code": "3260",
@@ -615,7 +843,10 @@
       "ename": "Toujiacuo",
       "county": "臺中市",
       "address": "臺中市潭子區頭張東路43巷8號",
-      "dailyStops": 102
+      "weeklyStops": {
+        "local": 714,
+        "emu3000": 0
+      }
     },
     {
       "code": "3270",
@@ -623,7 +854,10 @@
       "ename": "Songzhu",
       "county": "臺中市",
       "address": "臺中市北屯區舊社里松竹路一段1473巷100號",
-      "dailyStops": 110
+      "weeklyStops": {
+        "local": 772,
+        "emu3000": 0
+      }
     },
     {
       "code": "3280",
@@ -631,7 +865,10 @@
       "ename": "Taiyuan",
       "county": "臺中市",
       "address": "臺中市北屯區北興里東光路 665 號",
-      "dailyStops": 109
+      "weeklyStops": {
+        "local": 765,
+        "emu3000": 0
+      }
     },
     {
       "code": "3290",
@@ -639,7 +876,10 @@
       "ename": "Jingwu",
       "county": "臺中市",
       "address": "臺中市東區東南里東光路 161號",
-      "dailyStops": 102
+      "weeklyStops": {
+        "local": 714,
+        "emu3000": 0
+      }
     },
     {
       "code": "3300",
@@ -647,7 +887,10 @@
       "ename": "Taichung",
       "county": "臺中市",
       "address": "臺中市中區綠川里臺灣大道一段 1 號",
-      "dailyStops": 129
+      "weeklyStops": {
+        "local": 903,
+        "emu3000": 204
+      }
     },
     {
       "code": "3310",
@@ -655,7 +898,10 @@
       "ename": "Wuquan",
       "county": "臺中市",
       "address": "臺中市南區建國南路二段201號",
-      "dailyStops": 116
+      "weeklyStops": {
+        "local": 811,
+        "emu3000": 0
+      }
     },
     {
       "code": "3320",
@@ -663,7 +909,10 @@
       "ename": "Daqing",
       "county": "臺中市",
       "address": "臺中市南區樹德里7鄰大慶街2段130號",
-      "dailyStops": 125
+      "weeklyStops": {
+        "local": 874,
+        "emu3000": 0
+      }
     },
     {
       "code": "3330",
@@ -671,7 +920,10 @@
       "ename": "Wuri",
       "county": "臺中市",
       "address": "臺中市烏日區烏日里三民街 258 號",
-      "dailyStops": 116
+      "weeklyStops": {
+        "local": 811,
+        "emu3000": 0
+      }
     },
     {
       "code": "3340",
@@ -679,7 +931,10 @@
       "ename": "Xinwuri",
       "county": "臺中市",
       "address": "臺中市烏日區三和里高鐵東一路 26 號",
-      "dailyStops": 128
+      "weeklyStops": {
+        "local": 896,
+        "emu3000": 14
+      }
     },
     {
       "code": "3350",
@@ -687,7 +942,10 @@
       "ename": "Chenggong",
       "county": "臺中市",
       "address": "臺中市烏日區榮泉里中山路三段 550 號",
-      "dailyStops": 114
+      "weeklyStops": {
+        "local": 797,
+        "emu3000": 0
+      }
     },
     {
       "code": "3360",
@@ -695,7 +953,10 @@
       "ename": "Changhua",
       "county": "彰化縣",
       "address": "彰化縣彰化市長樂里三民路 1 號",
-      "dailyStops": 153
+      "weeklyStops": {
+        "local": 1071,
+        "emu3000": 253
+      }
     },
     {
       "code": "3370",
@@ -703,7 +964,10 @@
       "ename": "Huatan",
       "county": "彰化縣",
       "address": "彰化縣花壇鄉花壇村中正路 370 號",
-      "dailyStops": 77
+      "weeklyStops": {
+        "local": 539,
+        "emu3000": 0
+      }
     },
     {
       "code": "3380",
@@ -711,7 +975,10 @@
       "ename": "Dacun",
       "county": "彰化縣",
       "address": "彰化縣大村鄉過溝村福進路 100 號",
-      "dailyStops": 77
+      "weeklyStops": {
+        "local": 539,
+        "emu3000": 0
+      }
     },
     {
       "code": "3390",
@@ -719,7 +986,10 @@
       "ename": "Yuanlin",
       "county": "彰化縣",
       "address": "彰化縣員林市和平里民權街 55 號",
-      "dailyStops": 97
+      "weeklyStops": {
+        "local": 679,
+        "emu3000": 147
+      }
     },
     {
       "code": "3400",
@@ -727,7 +997,10 @@
       "ename": "Yongjing",
       "county": "彰化縣",
       "address": "彰化縣永靖鄉崙子村崙饒路25 號",
-      "dailyStops": 76
+      "weeklyStops": {
+        "local": 532,
+        "emu3000": 0
+      }
     },
     {
       "code": "3410",
@@ -735,7 +1008,10 @@
       "ename": "Shetou",
       "county": "彰化縣",
       "address": "彰化縣社頭鄉廣興村社站路 10 號",
-      "dailyStops": 85
+      "weeklyStops": {
+        "local": 595,
+        "emu3000": 0
+      }
     },
     {
       "code": "3420",
@@ -743,7 +1019,10 @@
       "ename": "Tianzhong",
       "county": "彰化縣",
       "address": "彰化縣田中鎮中路里中州路一段 1 號",
-      "dailyStops": 96
+      "weeklyStops": {
+        "local": 672,
+        "emu3000": 70
+      }
     },
     {
       "code": "3430",
@@ -751,7 +1030,10 @@
       "ename": "Ershui",
       "county": "彰化縣",
       "address": "彰化縣二水鄉光化村光文路 1 號",
-      "dailyStops": 115
+      "weeklyStops": {
+        "local": 805,
+        "emu3000": 14
+      }
     },
     {
       "code": "3431",
@@ -759,7 +1041,10 @@
       "ename": "Yuanquan",
       "county": "彰化縣",
       "address": "彰化縣二水鄉合興村英義路 (無站房)",
-      "dailyStops": 23
+      "weeklyStops": {
+        "local": 161,
+        "emu3000": 0
+      }
     },
     {
       "code": "3432",
@@ -767,7 +1052,10 @@
       "ename": "Zhuoshui",
       "county": "南投縣",
       "address": "南投縣名間鄉濁水村車站路 15 號",
-      "dailyStops": 23
+      "weeklyStops": {
+        "local": 161,
+        "emu3000": 0
+      }
     },
     {
       "code": "3433",
@@ -775,7 +1063,10 @@
       "ename": "Longquan",
       "county": "南投縣",
       "address": "南投縣集集鎮隘寮村龍泉巷 (無站房)",
-      "dailyStops": 23
+      "weeklyStops": {
+        "local": 161,
+        "emu3000": 0
+      }
     },
     {
       "code": "3434",
@@ -783,7 +1074,10 @@
       "ename": "Jiji",
       "county": "南投縣",
       "address": "南投縣集集鎮吳厝里民生路 75 號",
-      "dailyStops": 23
+      "weeklyStops": {
+        "local": 161,
+        "emu3000": 0
+      }
     },
     {
       "code": "3435",
@@ -791,7 +1085,10 @@
       "ename": "Shuili",
       "county": "南投縣",
       "address": "南投縣水里鄉水里村民生路 440 號",
-      "dailyStops": 23
+      "weeklyStops": {
+        "local": 161,
+        "emu3000": 0
+      }
     },
     {
       "code": "3436",
@@ -799,7 +1096,10 @@
       "ename": "Checheng",
       "county": "南投縣",
       "address": "南投縣水里鄉車埕村民權巷 2 號",
-      "dailyStops": 22
+      "weeklyStops": {
+        "local": 154,
+        "emu3000": 0
+      }
     },
     {
       "code": "3450",
@@ -807,7 +1107,10 @@
       "ename": "Linnei",
       "county": "雲林縣",
       "address": "雲林縣林內鄉林中村中山路 42 號",
-      "dailyStops": 80
+      "weeklyStops": {
+        "local": 560,
+        "emu3000": 0
+      }
     },
     {
       "code": "3460",
@@ -815,7 +1118,10 @@
       "ename": "Shiliu",
       "county": "雲林縣",
       "address": "雲林縣斗六市榴北里文明路 31 號",
-      "dailyStops": 74
+      "weeklyStops": {
+        "local": 518,
+        "emu3000": 0
+      }
     },
     {
       "code": "3470",
@@ -823,7 +1129,10 @@
       "ename": "Douliu",
       "county": "雲林縣",
       "address": "雲林縣斗六市信義里民生路 187 號",
-      "dailyStops": 90
+      "weeklyStops": {
+        "local": 630,
+        "emu3000": 134
+      }
     },
     {
       "code": "3480",
@@ -831,7 +1140,10 @@
       "ename": "Dounan",
       "county": "雲林縣",
       "address": "雲林縣斗南鎮南昌里中山路 2 號",
-      "dailyStops": 89
+      "weeklyStops": {
+        "local": 623,
+        "emu3000": 28
+      }
     },
     {
       "code": "3490",
@@ -839,7 +1151,10 @@
       "ename": "Shigui",
       "county": "雲林縣",
       "address": "雲林縣斗南鎮石龜里",
-      "dailyStops": 76
+      "weeklyStops": {
+        "local": 532,
+        "emu3000": 0
+      }
     },
     {
       "code": "4050",
@@ -847,7 +1162,10 @@
       "ename": "Dalin",
       "county": "嘉義縣",
       "address": "嘉義縣大林鎮吉林里中山路 2 號",
-      "dailyStops": 87
+      "weeklyStops": {
+        "local": 609,
+        "emu3000": 7
+      }
     },
     {
       "code": "4060",
@@ -855,7 +1173,10 @@
       "ename": "Minxiong",
       "county": "嘉義縣",
       "address": "嘉義縣民雄鄉東榮村和平路 2 號",
-      "dailyStops": 91
+      "weeklyStops": {
+        "local": 637,
+        "emu3000": 0
+      }
     },
     {
       "code": "4070",
@@ -863,7 +1184,10 @@
       "ename": "Jiabei",
       "county": "嘉義市",
       "address": "嘉義市 東區後湖里保建街 110 號",
-      "dailyStops": 79
+      "weeklyStops": {
+        "local": 553,
+        "emu3000": 0
+      }
     },
     {
       "code": "4080",
@@ -871,7 +1195,10 @@
       "ename": "Chiayi",
       "county": "嘉義市",
       "address": "嘉義市 西區番社里中山路 528 號",
-      "dailyStops": 119
+      "weeklyStops": {
+        "local": 833,
+        "emu3000": 197
+      }
     },
     {
       "code": "4090",
@@ -879,7 +1206,10 @@
       "ename": "Shuishang",
       "county": "嘉義縣",
       "address": "嘉義縣水上鄉粗溪村68號",
-      "dailyStops": 72
+      "weeklyStops": {
+        "local": 504,
+        "emu3000": 0
+      }
     },
     {
       "code": "4100",
@@ -887,7 +1217,10 @@
       "ename": "Nanjing",
       "county": "嘉義縣",
       "address": "嘉義縣水上鄉三鎮村三鎮路 26 號",
-      "dailyStops": 72
+      "weeklyStops": {
+        "local": 504,
+        "emu3000": 0
+      }
     },
     {
       "code": "4110",
@@ -895,7 +1228,10 @@
       "ename": "Houbi",
       "county": "臺南市",
       "address": "臺南市後壁區後壁里後壁 77 號",
-      "dailyStops": 72
+      "weeklyStops": {
+        "local": 504,
+        "emu3000": 0
+      }
     },
     {
       "code": "4120",
@@ -903,7 +1239,10 @@
       "ename": "Xinying",
       "county": "臺南市",
       "address": "臺南市新營區中營里中山路 1 號",
-      "dailyStops": 82
+      "weeklyStops": {
+        "local": 574,
+        "emu3000": 112
+      }
     },
     {
       "code": "4130",
@@ -911,7 +1250,10 @@
       "ename": "Liuying",
       "county": "臺南市",
       "address": "臺南市柳營區東昇里建國路 1 號",
-      "dailyStops": 73
+      "weeklyStops": {
+        "local": 511,
+        "emu3000": 0
+      }
     },
     {
       "code": "4140",
@@ -919,7 +1261,10 @@
       "ename": "Linfengying",
       "county": "臺南市",
       "address": "臺南市六甲區中社里林鳳營 16 號",
-      "dailyStops": 73
+      "weeklyStops": {
+        "local": 511,
+        "emu3000": 0
+      }
     },
     {
       "code": "4150",
@@ -927,7 +1272,10 @@
       "ename": "Longtian",
       "county": "臺南市",
       "address": "臺南市官田區隆田里中山路一段 1 號",
-      "dailyStops": 80
+      "weeklyStops": {
+        "local": 560,
+        "emu3000": 0
+      }
     },
     {
       "code": "4160",
@@ -935,7 +1283,10 @@
       "ename": "Balin",
       "county": "臺南市",
       "address": "臺南市官田區拔林里拔子林 83 之 1 號",
-      "dailyStops": 73
+      "weeklyStops": {
+        "local": 511,
+        "emu3000": 0
+      }
     },
     {
       "code": "4170",
@@ -943,7 +1294,10 @@
       "ename": "Shanhua",
       "county": "臺南市",
       "address": "臺南市善化區光文里中山路 1 號",
-      "dailyStops": 112
+      "weeklyStops": {
+        "local": 784,
+        "emu3000": 28
+      }
     },
     {
       "code": "4180",
@@ -951,7 +1305,10 @@
       "ename": "Nanke",
       "county": "臺南市",
       "address": "臺南市新市區大營里大營 287-300 號",
-      "dailyStops": 104
+      "weeklyStops": {
+        "local": 728,
+        "emu3000": 0
+      }
     },
     {
       "code": "4190",
@@ -959,7 +1316,10 @@
       "ename": "Xinshi",
       "county": "臺南市",
       "address": "臺南市新市區新和里中華路 1 號",
-      "dailyStops": 106
+      "weeklyStops": {
+        "local": 742,
+        "emu3000": 0
+      }
     },
     {
       "code": "4200",
@@ -967,7 +1327,10 @@
       "ename": "Yongkang",
       "county": "臺南市",
       "address": "臺南市永康區埔園里中山路 459 號",
-      "dailyStops": 123
+      "weeklyStops": {
+        "local": 861,
+        "emu3000": 7
+      }
     },
     {
       "code": "4210",
@@ -975,7 +1338,10 @@
       "ename": "Daqiao",
       "county": "臺南市",
       "address": "臺南市永康區西橋里中華路 835 號",
-      "dailyStops": 112
+      "weeklyStops": {
+        "local": 784,
+        "emu3000": 0
+      }
     },
     {
       "code": "4220",
@@ -983,7 +1349,10 @@
       "ename": "Tainan",
       "county": "臺南市",
       "address": "臺南市東區成大里北門路二段4號",
-      "dailyStops": 159
+      "weeklyStops": {
+        "local": 1113,
+        "emu3000": 211
+      }
     },
     {
       "code": "4250",
@@ -991,7 +1360,10 @@
       "ename": "Bao'an",
       "county": "臺南市",
       "address": "臺南市仁德區保安里文賢路一段 529 巷 10 號",
-      "dailyStops": 143
+      "weeklyStops": {
+        "local": 1001,
+        "emu3000": 0
+      }
     },
     {
       "code": "4260",
@@ -999,7 +1371,10 @@
       "ename": "Rende",
       "county": "臺南市",
       "address": "臺南市仁德區保安里永德路 10 號",
-      "dailyStops": 143
+      "weeklyStops": {
+        "local": 1001,
+        "emu3000": 0
+      }
     },
     {
       "code": "4270",
@@ -1007,7 +1382,10 @@
       "ename": "Zhongzhou",
       "county": "臺南市",
       "address": "臺南市仁德區中洲五街236號",
-      "dailyStops": 146
+      "weeklyStops": {
+        "local": 1022,
+        "emu3000": 0
+      }
     },
     {
       "code": "4271",
@@ -1015,7 +1393,10 @@
       "ename": "Chang Jung Christian University",
       "county": "臺南市",
       "address": "臺南市歸仁區大潭里長大路15 號",
-      "dailyStops": 70
+      "weeklyStops": {
+        "local": 490,
+        "emu3000": 0
+      }
     },
     {
       "code": "4272",
@@ -1023,7 +1404,10 @@
       "ename": "Shalun",
       "county": "臺南市",
       "address": "臺南市歸仁區沙崙里歸仁大道 102 號",
-      "dailyStops": 73
+      "weeklyStops": {
+        "local": 511,
+        "emu3000": 0
+      }
     },
     {
       "code": "4290",
@@ -1031,7 +1415,10 @@
       "ename": "Dahu",
       "county": "高雄市",
       "address": "高雄市路竹區甲南里天祐路 24 號",
-      "dailyStops": 78
+      "weeklyStops": {
+        "local": 546,
+        "emu3000": 0
+      }
     },
     {
       "code": "4300",
@@ -1039,7 +1426,10 @@
       "ename": "Luzhu",
       "county": "高雄市",
       "address": "高雄市路竹區竹南里中正路 288 號",
-      "dailyStops": 78
+      "weeklyStops": {
+        "local": 546,
+        "emu3000": 0
+      }
     },
     {
       "code": "4310",
@@ -1047,7 +1437,10 @@
       "ename": "Gangshan",
       "county": "高雄市",
       "address": "高雄市岡山區碧紅里岡燕路 111 號",
-      "dailyStops": 83
+      "weeklyStops": {
+        "local": 581,
+        "emu3000": 49
+      }
     },
     {
       "code": "4320",
@@ -1055,7 +1448,10 @@
       "ename": "Qiaotou",
       "county": "高雄市",
       "address": "高雄市橋頭區橋頭里站前街 14 號",
-      "dailyStops": 73
+      "weeklyStops": {
+        "local": 511,
+        "emu3000": 0
+      }
     },
     {
       "code": "4330",
@@ -1063,7 +1459,10 @@
       "ename": "Nanzi",
       "county": "高雄市",
       "address": "高雄市楠梓區惠楠里建楠路 229 號",
-      "dailyStops": 80
+      "weeklyStops": {
+        "local": 560,
+        "emu3000": 0
+      }
     },
     {
       "code": "4340",
@@ -1071,7 +1470,10 @@
       "ename": "Xinzuoying",
       "county": "高雄市",
       "address": "高雄市左營區尾北里站前北路 1 號",
-      "dailyStops": 121
+      "weeklyStops": {
+        "local": 847,
+        "emu3000": 253
+      }
     },
     {
       "code": "4350",
@@ -1079,7 +1481,10 @@
       "ename": "Zuoying",
       "county": "高雄市",
       "address": "高雄市左營區翠華路1050號地下1層",
-      "dailyStops": 94
+      "weeklyStops": {
+        "local": 658,
+        "emu3000": 0
+      }
     },
     {
       "code": "4360",
@@ -1087,7 +1492,10 @@
       "ename": "Neiwei",
       "county": "高雄市",
       "address": "高雄市鼓山區翠華路500號地下1層",
-      "dailyStops": 94
+      "weeklyStops": {
+        "local": 658,
+        "emu3000": 0
+      }
     },
     {
       "code": "4370",
@@ -1095,7 +1503,10 @@
       "ename": "Museum of Fine Arts",
       "county": "高雄市",
       "address": "高雄市鼓山區翠華路246號",
-      "dailyStops": 94
+      "weeklyStops": {
+        "local": 658,
+        "emu3000": 0
+      }
     },
     {
       "code": "4380",
@@ -1103,7 +1514,10 @@
       "ename": "Gushan",
       "county": "高雄市",
       "address": "高雄市鼓山區鐵路街20巷6號",
-      "dailyStops": 94
+      "weeklyStops": {
+        "local": 658,
+        "emu3000": 0
+      }
     },
     {
       "code": "4390",
@@ -1111,7 +1525,10 @@
       "ename": "Sankuaicuo",
       "county": "高雄市",
       "address": "高雄市三民區德北里6鄰康平街1號",
-      "dailyStops": 94
+      "weeklyStops": {
+        "local": 658,
+        "emu3000": 0
+      }
     },
     {
       "code": "4400",
@@ -1119,7 +1536,10 @@
       "ename": "Kaohsiung",
       "county": "高雄市",
       "address": "高雄市三民區港西里建國二路 318 號",
-      "dailyStops": 121
+      "weeklyStops": {
+        "local": 847,
+        "emu3000": 323
+      }
     },
     {
       "code": "4410",
@@ -1127,7 +1547,10 @@
       "ename": "Minzu",
       "county": "高雄市",
       "address": "高雄市三民區博惠里14鄰凱旋一路260號",
-      "dailyStops": 93
+      "weeklyStops": {
+        "local": 651,
+        "emu3000": 0
+      }
     },
     {
       "code": "4420",
@@ -1135,7 +1558,10 @@
       "ename": "Science And Technology Museum",
       "county": "高雄市",
       "address": "高雄市三民區寶盛里15鄰大順三路307號",
-      "dailyStops": 101
+      "weeklyStops": {
+        "local": 707,
+        "emu3000": 0
+      }
     },
     {
       "code": "4430",
@@ -1143,7 +1569,10 @@
       "ename": "Zhengyi",
       "county": "高雄市",
       "address": "高雄市苓雅區建軍里正義路 308 號 B1",
-      "dailyStops": 93
+      "weeklyStops": {
+        "local": 651,
+        "emu3000": 0
+      }
     },
     {
       "code": "4440",
@@ -1151,7 +1580,10 @@
       "ename": "Fongshan",
       "county": "高雄市",
       "address": "高雄市鳳山區曹公里曹公路 137 號",
-      "dailyStops": 120
+      "weeklyStops": {
+        "local": 840,
+        "emu3000": 246
+      }
     },
     {
       "code": "4450",
@@ -1159,7 +1591,10 @@
       "ename": "Houzhuang",
       "county": "高雄市",
       "address": "高雄市大寮區後庄里民慶街 9 號",
-      "dailyStops": 88
+      "weeklyStops": {
+        "local": 616,
+        "emu3000": 0
+      }
     },
     {
       "code": "4460",
@@ -1167,7 +1602,10 @@
       "ename": "Jiuqutang",
       "county": "高雄市",
       "address": "高雄市大樹區久堂里久堂路鐵路巷 15 號",
-      "dailyStops": 120
+      "weeklyStops": {
+        "local": 840,
+        "emu3000": 56
+      }
     },
     {
       "code": "4470",
@@ -1175,7 +1613,10 @@
       "ename": "Liukuaicuo",
       "county": "屏東縣",
       "address": "屏東縣屏東市長安里光復路 392 號",
-      "dailyStops": 87
+      "weeklyStops": {
+        "local": 609,
+        "emu3000": 0
+      }
     },
     {
       "code": "5000",
@@ -1183,7 +1624,10 @@
       "ename": "Pingtung",
       "county": "屏東縣",
       "address": "屏東縣屏東市建國里公勇路 62 號",
-      "dailyStops": 120
+      "weeklyStops": {
+        "local": 840,
+        "emu3000": 323
+      }
     },
     {
       "code": "5010",
@@ -1191,7 +1635,10 @@
       "ename": "Guilai",
       "county": "屏東縣",
       "address": "屏東縣屏東市歸心里歸仁路 5 之 4 號",
-      "dailyStops": 79
+      "weeklyStops": {
+        "local": 553,
+        "emu3000": 0
+      }
     },
     {
       "code": "5020",
@@ -1199,7 +1646,10 @@
       "ename": "Linluo",
       "county": "屏東縣",
       "address": "屏東縣麟洛鄉田道村中華路站前巷 15 號",
-      "dailyStops": 79
+      "weeklyStops": {
+        "local": 553,
+        "emu3000": 0
+      }
     },
     {
       "code": "5030",
@@ -1207,7 +1657,10 @@
       "ename": "Xishi",
       "county": "屏東縣",
       "address": "屏東縣竹田鄉西勢村西豐路 2 號",
-      "dailyStops": 104
+      "weeklyStops": {
+        "local": 728,
+        "emu3000": 0
+      }
     },
     {
       "code": "5040",
@@ -1215,7 +1668,10 @@
       "ename": "Zhutian",
       "county": "屏東縣",
       "address": "屏東縣竹田鄉履豐村豐明路29 號",
-      "dailyStops": 79
+      "weeklyStops": {
+        "local": 553,
+        "emu3000": 0
+      }
     },
     {
       "code": "5050",
@@ -1223,7 +1679,10 @@
       "ename": "Chaozhou",
       "county": "屏東縣",
       "address": "屏東縣潮州鎮新榮里信義路 111 號",
-      "dailyStops": 122
+      "weeklyStops": {
+        "local": 854,
+        "emu3000": 309
+      }
     },
     {
       "code": "5060",
@@ -1231,7 +1690,10 @@
       "ename": "Kanding",
       "county": "屏東縣",
       "address": "屏東縣崁頂鄉崁頂村田寮路",
-      "dailyStops": 37
+      "weeklyStops": {
+        "local": 259,
+        "emu3000": 0
+      }
     },
     {
       "code": "5070",
@@ -1239,7 +1701,10 @@
       "ename": "Nanzhou",
       "county": "屏東縣",
       "address": "屏東縣南州鄉仁里村仁里路 86 號",
-      "dailyStops": 46
+      "weeklyStops": {
+        "local": 322,
+        "emu3000": 77
+      }
     },
     {
       "code": "5080",
@@ -1247,7 +1712,10 @@
       "ename": "Zhen'an",
       "county": "屏東縣",
       "address": "屏東縣林邊鄉鎮安村永和路4號",
-      "dailyStops": 37
+      "weeklyStops": {
+        "local": 259,
+        "emu3000": 0
+      }
     },
     {
       "code": "5090",
@@ -1255,7 +1723,10 @@
       "ename": "Linbian",
       "county": "屏東縣",
       "address": "屏東縣林邊鄉仁和村仁愛路 33 號",
-      "dailyStops": 46
+      "weeklyStops": {
+        "local": 322,
+        "emu3000": 77
+      }
     },
     {
       "code": "5100",
@@ -1263,7 +1734,10 @@
       "ename": "Jiadong",
       "county": "屏東縣",
       "address": "屏東縣佳冬鄉六根村復興路21號",
-      "dailyStops": 43
+      "weeklyStops": {
+        "local": 301,
+        "emu3000": 0
+      }
     },
     {
       "code": "5110",
@@ -1271,7 +1745,10 @@
       "ename": "Donghai",
       "county": "屏東縣",
       "address": "屏東縣枋寮鄉東海村西安路 92 號",
-      "dailyStops": 37
+      "weeklyStops": {
+        "local": 259,
+        "emu3000": 0
+      }
     },
     {
       "code": "5120",
@@ -1279,7 +1756,10 @@
       "ename": "Fangliao",
       "county": "屏東縣",
       "address": "屏東縣枋寮鄉枋寮村儲運路 18 號",
-      "dailyStops": 46
+      "weeklyStops": {
+        "local": 322,
+        "emu3000": 154
+      }
     },
     {
       "code": "5130",
@@ -1287,7 +1767,10 @@
       "ename": "Jialu",
       "county": "屏東縣",
       "address": "屏東縣枋山鄉加祿村會社 53 號",
-      "dailyStops": 6
+      "weeklyStops": {
+        "local": 42,
+        "emu3000": 0
+      }
     },
     {
       "code": "5140",
@@ -1295,7 +1778,10 @@
       "ename": "Neishi",
       "county": "屏東縣",
       "address": "屏東縣枋山鄉加祿村南和 43 號",
-      "dailyStops": 3
+      "weeklyStops": {
+        "local": 21,
+        "emu3000": 0
+      }
     },
     {
       "code": "5160",
@@ -1303,7 +1789,10 @@
       "ename": "Fangshan",
       "county": "屏東縣",
       "address": "屏東縣獅子鄉內獅村內獅巷 84 號",
-      "dailyStops": 4
+      "weeklyStops": {
+        "local": 28,
+        "emu3000": 0
+      }
     },
     {
       "code": "5190",
@@ -1311,7 +1800,10 @@
       "ename": "Dawu",
       "county": "臺東縣",
       "address": "臺東縣大武鄉大鳥村和平部落 33 號",
-      "dailyStops": 8
+      "weeklyStops": {
+        "local": 56,
+        "emu3000": 133
+      }
     },
     {
       "code": "5200",
@@ -1319,7 +1811,10 @@
       "ename": "Longxi",
       "county": "臺東縣",
       "address": "臺東縣太麻里鄉多良村大溪 37 號",
-      "dailyStops": 8
+      "weeklyStops": {
+        "local": 56,
+        "emu3000": 14
+      }
     },
     {
       "code": "5210",
@@ -1327,7 +1822,10 @@
       "ename": "Jinlun",
       "county": "臺東縣",
       "address": "臺東縣太麻里鄉金崙村金崙 47 之 17 號",
-      "dailyStops": 8
+      "weeklyStops": {
+        "local": 56,
+        "emu3000": 91
+      }
     },
     {
       "code": "5220",
@@ -1335,7 +1833,10 @@
       "ename": "Taimali",
       "county": "臺東縣",
       "address": "臺東縣太麻里鄉大王村站前路 2 號",
-      "dailyStops": 8
+      "weeklyStops": {
+        "local": 56,
+        "emu3000": 133
+      }
     },
     {
       "code": "5230",
@@ -1343,7 +1844,10 @@
       "ename": "Zhiben",
       "county": "臺東縣",
       "address": "臺東縣臺東市知本里知本路二段 900 巷 85 號",
-      "dailyStops": 8
+      "weeklyStops": {
+        "local": 56,
+        "emu3000": 161
+      }
     },
     {
       "code": "5240",
@@ -1351,7 +1855,10 @@
       "ename": "Kangle",
       "county": "臺東縣",
       "address": "臺東縣臺東市康樂里博物館路 51 巷 131 號",
-      "dailyStops": 8
+      "weeklyStops": {
+        "local": 56,
+        "emu3000": 14
+      }
     },
     {
       "code": "6000",
@@ -1359,7 +1866,10 @@
       "ename": "Taitung",
       "county": "臺東縣",
       "address": "臺東縣臺東市岩灣里岩灣路 101 巷 598 號",
-      "dailyStops": 26
+      "weeklyStops": {
+        "local": 183,
+        "emu3000": 269
+      }
     },
     {
       "code": "6010",
@@ -1367,7 +1877,10 @@
       "ename": "Shanli",
       "county": "臺東縣",
       "address": "臺東縣卑南鄉嘉豐村山里路 108 號",
-      "dailyStops": 15
+      "weeklyStops": {
+        "local": 103,
+        "emu3000": 0
+      }
     },
     {
       "code": "6020",
@@ -1375,7 +1888,10 @@
       "ename": "Luye",
       "county": "臺東縣",
       "address": "臺東縣鹿野鄉鹿野村中正路 38 號",
-      "dailyStops": 17
+      "weeklyStops": {
+        "local": 117,
+        "emu3000": 101
+      }
     },
     {
       "code": "6030",
@@ -1383,7 +1899,10 @@
       "ename": "Ruiyuan",
       "county": "臺東縣",
       "address": "臺東縣鹿野鄉瑞源村瑞景路一段 336 巷 8 號 之 1",
-      "dailyStops": 17
+      "weeklyStops": {
+        "local": 117,
+        "emu3000": 0
+      }
     },
     {
       "code": "6040",
@@ -1391,7 +1910,10 @@
       "ename": "Ruihe",
       "county": "臺東縣",
       "address": "臺東縣鹿野鄉瑞和村瑞景路三段 1 之 1 號",
-      "dailyStops": 15
+      "weeklyStops": {
+        "local": 103,
+        "emu3000": 0
+      }
     },
     {
       "code": "6050",
@@ -1399,7 +1921,10 @@
       "ename": "Guanshan",
       "county": "臺東縣",
       "address": "臺東縣關山鎮里壠里博愛路 2 號",
-      "dailyStops": 18
+      "weeklyStops": {
+        "local": 127,
+        "emu3000": 157
+      }
     },
     {
       "code": "6060",
@@ -1407,7 +1932,10 @@
       "ename": "Haiduan",
       "county": "臺東縣",
       "address": "臺東縣關山鎮德高里西莊 49 號",
-      "dailyStops": 14
+      "weeklyStops": {
+        "local": 98,
+        "emu3000": 0
+      }
     },
     {
       "code": "6070",
@@ -1415,7 +1943,10 @@
       "ename": "Chishang",
       "county": "臺東縣",
       "address": "臺東縣池上鄉福文村鐵花路 30 號",
-      "dailyStops": 17
+      "weeklyStops": {
+        "local": 122,
+        "emu3000": 150
+      }
     },
     {
       "code": "6080",
@@ -1423,7 +1954,10 @@
       "ename": "Fuli",
       "county": "花蓮縣",
       "address": "花蓮縣富里鄉富里村車站街 56 號",
-      "dailyStops": 14
+      "weeklyStops": {
+        "local": 98,
+        "emu3000": 126
+      }
     },
     {
       "code": "6090",
@@ -1431,7 +1965,10 @@
       "ename": "Dongzhu",
       "county": "花蓮縣",
       "address": "花蓮縣富里鄉新興村新興 23 號",
-      "dailyStops": 14
+      "weeklyStops": {
+        "local": 98,
+        "emu3000": 0
+      }
     },
     {
       "code": "6100",
@@ -1439,7 +1976,10 @@
       "ename": "Dongli",
       "county": "花蓮縣",
       "address": "花蓮縣富里鄉東里村大莊路 15 之 6 號",
-      "dailyStops": 14
+      "weeklyStops": {
+        "local": 98,
+        "emu3000": 0
+      }
     },
     {
       "code": "6110",
@@ -1447,7 +1987,10 @@
       "ename": "Yuli",
       "county": "花蓮縣",
       "address": "花蓮縣玉里鎮中城里康樂街 39 號",
-      "dailyStops": 21
+      "weeklyStops": {
+        "local": 147,
+        "emu3000": 192
+      }
     },
     {
       "code": "6120",
@@ -1455,7 +1998,10 @@
       "ename": "Sanmin",
       "county": "花蓮縣",
       "address": "花蓮縣玉里鎮三民里三民 10 號",
-      "dailyStops": 13
+      "weeklyStops": {
+        "local": 91,
+        "emu3000": 0
+      }
     },
     {
       "code": "6130",
@@ -1463,7 +2009,10 @@
       "ename": "Ruisui",
       "county": "花蓮縣",
       "address": "花蓮縣瑞穗鄉瑞穗村四維街 13 號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 161
+      }
     },
     {
       "code": "6140",
@@ -1471,7 +2020,10 @@
       "ename": "Fuyuan",
       "county": "花蓮縣",
       "address": "花蓮縣瑞穗鄉富源村富源路 2 號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 0
+      }
     },
     {
       "code": "6150",
@@ -1479,7 +2031,10 @@
       "ename": "Dafu",
       "county": "花蓮縣",
       "address": "花蓮縣光復鄉大富村明德路 1 號",
-      "dailyStops": 13
+      "weeklyStops": {
+        "local": 91,
+        "emu3000": 0
+      }
     },
     {
       "code": "6160",
@@ -1487,7 +2042,10 @@
       "ename": "Guangfu",
       "county": "花蓮縣",
       "address": "花蓮縣光復鄉大安村中正路一段 2 之 1 號",
-      "dailyStops": 17
+      "weeklyStops": {
+        "local": 119,
+        "emu3000": 133
+      }
     },
     {
       "code": "6170",
@@ -1495,7 +2053,10 @@
       "ename": "Wanrong",
       "county": "花蓮縣",
       "address": "花蓮縣鳳林鎮長橋里長德街 17 號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 0
+      }
     },
     {
       "code": "6180",
@@ -1503,7 +2064,10 @@
       "ename": "Fenglin",
       "county": "花蓮縣",
       "address": "花蓮縣鳳林鎮鳳智里中山路 43 號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 135
+      }
     },
     {
       "code": "6190",
@@ -1511,7 +2075,10 @@
       "ename": "Nanping",
       "county": "花蓮縣",
       "address": "花蓮縣鳳林鎮南平里自強路 233 號",
-      "dailyStops": 13
+      "weeklyStops": {
+        "local": 91,
+        "emu3000": 0
+      }
     },
     {
       "code": "6200",
@@ -1519,7 +2086,10 @@
       "ename": "Linrong Shin Kong",
       "county": "花蓮縣",
       "address": "花蓮縣鳳林鎮兆豐路800號",
-      "dailyStops": 7
+      "weeklyStops": {
+        "local": 49,
+        "emu3000": 35
+      }
     },
     {
       "code": "6210",
@@ -1527,7 +2097,10 @@
       "ename": "Fengtian",
       "county": "花蓮縣",
       "address": "花蓮縣壽豐鄉豐山村站前街 36 號",
-      "dailyStops": 15
+      "weeklyStops": {
+        "local": 105,
+        "emu3000": 0
+      }
     },
     {
       "code": "6220",
@@ -1535,7 +2108,10 @@
       "ename": "Shoufeng",
       "county": "花蓮縣",
       "address": "花蓮縣壽豐鄉壽豐村壽山路 1 號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 140
+      }
     },
     {
       "code": "6230",
@@ -1543,7 +2119,10 @@
       "ename": "Pinghe",
       "county": "花蓮縣",
       "address": "花蓮縣壽豐鄉平和村平和路 1 號",
-      "dailyStops": 13
+      "weeklyStops": {
+        "local": 91,
+        "emu3000": 0
+      }
     },
     {
       "code": "6240",
@@ -1551,7 +2130,10 @@
       "ename": "Zhixue",
       "county": "花蓮縣",
       "address": "花蓮縣壽豐鄉志學村中正路 1 號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 112
+      }
     },
     {
       "code": "6250",
@@ -1559,7 +2141,10 @@
       "ename": "Ji'an",
       "county": "花蓮縣",
       "address": "花蓮縣吉安鄉南昌村南昌路1號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 126
+      }
     },
     {
       "code": "7000",
@@ -1567,7 +2152,10 @@
       "ename": "Hualien",
       "county": "花蓮縣",
       "address": "花蓮縣花蓮市國聯里國聯一路 100 號",
-      "dailyStops": 41
+      "weeklyStops": {
+        "local": 287,
+        "emu3000": 252
+      }
     },
     {
       "code": "7010",
@@ -1575,7 +2163,10 @@
       "ename": "Beipu",
       "county": "花蓮縣",
       "address": "花蓮縣新城鄉北埔村自強街 113 號",
-      "dailyStops": 26
+      "weeklyStops": {
+        "local": 180,
+        "emu3000": 0
+      }
     },
     {
       "code": "7020",
@@ -1583,7 +2174,10 @@
       "ename": "Jingmei",
       "county": "花蓮縣",
       "address": "花蓮縣秀林鄉景美村加灣 178 之 1 號",
-      "dailyStops": 19
+      "weeklyStops": {
+        "local": 131,
+        "emu3000": 0
+      }
     },
     {
       "code": "7030",
@@ -1591,7 +2185,10 @@
       "ename": "Xincheng",
       "county": "花蓮縣",
       "address": "花蓮縣新城鄉新城村新興一路 73 號",
-      "dailyStops": 29
+      "weeklyStops": {
+        "local": 201,
+        "emu3000": 38
+      }
     },
     {
       "code": "7040",
@@ -1599,7 +2196,10 @@
       "ename": "Chongde",
       "county": "花蓮縣",
       "address": "花蓮縣秀林鄉崇德村海濱路 96 號",
-      "dailyStops": 22
+      "weeklyStops": {
+        "local": 152,
+        "emu3000": 0
+      }
     },
     {
       "code": "7050",
@@ -1607,7 +2207,10 @@
       "ename": "Heren",
       "county": "花蓮縣",
       "address": "花蓮縣秀林鄉和平村和仁 71 號",
-      "dailyStops": 25
+      "weeklyStops": {
+        "local": 173,
+        "emu3000": 0
+      }
     },
     {
       "code": "7060",
@@ -1615,7 +2218,10 @@
       "ename": "Heping",
       "county": "花蓮縣",
       "address": "花蓮縣秀林鄉和平村和平 276 號",
-      "dailyStops": 31
+      "weeklyStops": {
+        "local": 215,
+        "emu3000": 0
+      }
     },
     {
       "code": "7070",
@@ -1623,7 +2229,10 @@
       "ename": "Hanben",
       "county": "宜蘭縣",
       "address": "宜蘭縣南澳鄉澳花村蘇花路一段 56 號",
-      "dailyStops": 19
+      "weeklyStops": {
+        "local": 133,
+        "emu3000": 0
+      }
     },
     {
       "code": "7080",
@@ -1631,7 +2240,10 @@
       "ename": "Wuta",
       "county": "宜蘭縣",
       "address": "宜蘭縣南澳鄉武塔村新溪路 18 號",
-      "dailyStops": 16
+      "weeklyStops": {
+        "local": 112,
+        "emu3000": 0
+      }
     },
     {
       "code": "7090",
@@ -1639,7 +2251,10 @@
       "ename": "Nan'ao",
       "county": "宜蘭縣",
       "address": "宜蘭縣蘇澳鎮南強里大通路 22 號",
-      "dailyStops": 32
+      "weeklyStops": {
+        "local": 224,
+        "emu3000": 10
+      }
     },
     {
       "code": "7100",
@@ -1647,7 +2262,10 @@
       "ename": "Dong'ao",
       "county": "宜蘭縣",
       "address": "宜蘭縣南澳鄉東岳村東岳路 1 號",
-      "dailyStops": 30
+      "weeklyStops": {
+        "local": 210,
+        "emu3000": 0
+      }
     },
     {
       "code": "7110",
@@ -1655,7 +2273,10 @@
       "ename": "Yongle",
       "county": "宜蘭縣",
       "address": "宜蘭縣蘇澳鎮永樂里圳頭路 60 號",
-      "dailyStops": 20
+      "weeklyStops": {
+        "local": 140,
+        "emu3000": 0
+      }
     },
     {
       "code": "7120",
@@ -1663,7 +2284,10 @@
       "ename": "Su'ao",
       "county": "宜蘭縣",
       "address": "宜蘭縣蘇澳鎮蘇南里太平路 1 號",
-      "dailyStops": 41
+      "weeklyStops": {
+        "local": 290,
+        "emu3000": 0
+      }
     },
     {
       "code": "7130",
@@ -1671,7 +2295,10 @@
       "ename": "Su'aoxin",
       "county": "宜蘭縣",
       "address": "宜蘭縣蘇澳鎮聖愛里中山路二段 238 號",
-      "dailyStops": 75
+      "weeklyStops": {
+        "local": 528,
+        "emu3000": 12
+      }
     },
     {
       "code": "7150",
@@ -1679,7 +2306,10 @@
       "ename": "Dongshan",
       "county": "宜蘭縣",
       "address": "宜蘭縣冬山鄉冬山村中正路 1 -1號",
-      "dailyStops": 66
+      "weeklyStops": {
+        "local": 465,
+        "emu3000": 0
+      }
     },
     {
       "code": "7160",
@@ -1687,7 +2317,10 @@
       "ename": "Luodong",
       "county": "宜蘭縣",
       "address": "宜蘭縣羅東鎮大新里公正路 2 號",
-      "dailyStops": 76
+      "weeklyStops": {
+        "local": 535,
+        "emu3000": 180
+      }
     },
     {
       "code": "7170",
@@ -1695,7 +2328,10 @@
       "ename": "Zhongli_Yilan",
       "county": "宜蘭縣",
       "address": "宜蘭縣五結鄉中里路",
-      "dailyStops": 59
+      "weeklyStops": {
+        "local": 416,
+        "emu3000": 0
+      }
     },
     {
       "code": "7180",
@@ -1703,7 +2339,10 @@
       "ename": "Erjie",
       "county": "宜蘭縣",
       "address": "宜蘭縣五結鄉五結中路三段658巷8號",
-      "dailyStops": 59
+      "weeklyStops": {
+        "local": 416,
+        "emu3000": 0
+      }
     },
     {
       "code": "7190",
@@ -1711,7 +2350,10 @@
       "ename": "Yilan",
       "county": "宜蘭縣",
       "address": "宜蘭縣宜蘭市和睦里光復路 1 號",
-      "dailyStops": 80
+      "weeklyStops": {
+        "local": 563,
+        "emu3000": 187
+      }
     },
     {
       "code": "7200",
@@ -1719,7 +2361,10 @@
       "ename": "Sicheng",
       "county": "宜蘭縣",
       "address": "宜蘭縣礁溪鄉吳沙村站前路 24 號",
-      "dailyStops": 50
+      "weeklyStops": {
+        "local": 353,
+        "emu3000": 0
+      }
     },
     {
       "code": "7210",
@@ -1727,7 +2372,10 @@
       "ename": "Jiaoxi",
       "county": "宜蘭縣",
       "address": "宜蘭縣礁溪鄉德陽村溫泉路 1 號",
-      "dailyStops": 66
+      "weeklyStops": {
+        "local": 465,
+        "emu3000": 61
+      }
     },
     {
       "code": "7220",
@@ -1735,7 +2383,10 @@
       "ename": "Dingpu",
       "county": "宜蘭縣",
       "address": "宜蘭縣頭城鎮下埔里下埔路 4 之 8 號",
-      "dailyStops": 50
+      "weeklyStops": {
+        "local": 353,
+        "emu3000": 0
+      }
     },
     {
       "code": "7230",
@@ -1743,7 +2394,10 @@
       "ename": "Toucheng",
       "county": "宜蘭縣",
       "address": "宜蘭縣頭城鎮纘祥路 59 號",
-      "dailyStops": 66
+      "weeklyStops": {
+        "local": 465,
+        "emu3000": 12
+      }
     },
     {
       "code": "7240",
@@ -1751,7 +2405,10 @@
       "ename": "Wai'ao",
       "county": "宜蘭縣",
       "address": "宜蘭縣頭城鎮濱海路二段 217 號",
-      "dailyStops": 39
+      "weeklyStops": {
+        "local": 273,
+        "emu3000": 0
+      }
     },
     {
       "code": "7250",
@@ -1759,7 +2416,10 @@
       "ename": "Guishan",
       "county": "宜蘭縣",
       "address": "宜蘭縣頭城鎮更新里濱海路三段 261 號",
-      "dailyStops": 39
+      "weeklyStops": {
+        "local": 273,
+        "emu3000": 0
+      }
     },
     {
       "code": "7260",
@@ -1767,7 +2427,10 @@
       "ename": "Daxi",
       "county": "宜蘭縣",
       "address": "宜蘭縣頭城鎮濱海路五段 63 號",
-      "dailyStops": 39
+      "weeklyStops": {
+        "local": 273,
+        "emu3000": 0
+      }
     },
     {
       "code": "7270",
@@ -1775,7 +2438,10 @@
       "ename": "Dali",
       "county": "宜蘭縣",
       "address": "宜蘭縣頭城鎮大里里濱海路六段 326 號",
-      "dailyStops": 39
+      "weeklyStops": {
+        "local": 273,
+        "emu3000": 0
+      }
     },
     {
       "code": "7280",
@@ -1783,7 +2449,10 @@
       "ename": "Shicheng",
       "county": "宜蘭縣",
       "address": "宜蘭縣頭城鎮濱海路七段 230 號",
-      "dailyStops": 39
+      "weeklyStops": {
+        "local": 273,
+        "emu3000": 0
+      }
     },
     {
       "code": "7290",
@@ -1791,7 +2460,10 @@
       "ename": "Fulong",
       "county": "新北市",
       "address": "新北市貢寮區福隆里福隆街 2 號",
-      "dailyStops": 61
+      "weeklyStops": {
+        "local": 427,
+        "emu3000": 0
+      }
     },
     {
       "code": "7300",
@@ -1799,7 +2471,10 @@
       "ename": "Gongliao",
       "county": "新北市",
       "address": "新北市貢寮區貢寮里朝陽街 33 號",
-      "dailyStops": 50
+      "weeklyStops": {
+        "local": 350,
+        "emu3000": 0
+      }
     },
     {
       "code": "7310",
@@ -1807,7 +2482,10 @@
       "ename": "Shuangxi",
       "county": "新北市",
       "address": "新北市雙溪區新基里朝陽街 1 號",
-      "dailyStops": 59
+      "weeklyStops": {
+        "local": 413,
+        "emu3000": 0
+      }
     },
     {
       "code": "7320",
@@ -1815,7 +2493,10 @@
       "ename": "Mudan",
       "county": "新北市",
       "address": "新北市雙溪區牡丹里51號",
-      "dailyStops": 46
+      "weeklyStops": {
+        "local": 322,
+        "emu3000": 0
+      }
     },
     {
       "code": "7330",
@@ -1823,7 +2504,10 @@
       "ename": "Sandiaoling",
       "county": "新北市",
       "address": "新北市瑞芳區碩仁里魚寮路 1 號",
-      "dailyStops": 79
+      "weeklyStops": {
+        "local": 553,
+        "emu3000": 0
+      }
     },
     {
       "code": "7331",
@@ -1831,7 +2515,10 @@
       "ename": "Dahua",
       "county": "新北市",
       "address": "新北市平溪區南山里六分 12 之 1 號",
-      "dailyStops": 33
+      "weeklyStops": {
+        "local": 231,
+        "emu3000": 0
+      }
     },
     {
       "code": "7332",
@@ -1839,7 +2526,10 @@
       "ename": "Shifen",
       "county": "新北市",
       "address": "新北市平溪區十分里十分街 51 號",
-      "dailyStops": 33
+      "weeklyStops": {
+        "local": 231,
+        "emu3000": 0
+      }
     },
     {
       "code": "7333",
@@ -1847,7 +2537,10 @@
       "ename": "Wanggu",
       "county": "新北市",
       "address": "新北市平溪區望古里 (無站房)",
-      "dailyStops": 32
+      "weeklyStops": {
+        "local": 224,
+        "emu3000": 0
+      }
     },
     {
       "code": "7334",
@@ -1855,7 +2548,10 @@
       "ename": "Lingjiao",
       "county": "新北市",
       "address": "新北市平溪區嶺腳里嶺腳寮 22 號",
-      "dailyStops": 32
+      "weeklyStops": {
+        "local": 224,
+        "emu3000": 0
+      }
     },
     {
       "code": "7335",
@@ -1863,7 +2559,10 @@
       "ename": "Pingxi",
       "county": "新北市",
       "address": "新北市平溪區平溪里中華街 12 號",
-      "dailyStops": 32
+      "weeklyStops": {
+        "local": 224,
+        "emu3000": 0
+      }
     },
     {
       "code": "7336",
@@ -1871,7 +2570,10 @@
       "ename": "Jingtong",
       "county": "新北市",
       "address": "新北市平溪區菁桐里菁桐街 52 號",
-      "dailyStops": 32
+      "weeklyStops": {
+        "local": 224,
+        "emu3000": 0
+      }
     },
     {
       "code": "7350",
@@ -1879,7 +2581,10 @@
       "ename": "Houtong",
       "county": "新北市",
       "address": "新北市瑞芳區光復里柴寮路 70 號",
-      "dailyStops": 85
+      "weeklyStops": {
+        "local": 595,
+        "emu3000": 0
+      }
     },
     {
       "code": "7360",
@@ -1887,7 +2592,10 @@
       "ename": "Ruifang",
       "county": "新北市",
       "address": "新北市瑞芳區龍潭里明燈路三段 82 號",
-      "dailyStops": 114
+      "weeklyStops": {
+        "local": 796,
+        "emu3000": 40
+      }
     },
     {
       "code": "7361",
@@ -1895,7 +2603,10 @@
       "ename": "Haikeguan",
       "county": "基隆市",
       "address": "基隆市中正區長潭里",
-      "dailyStops": 17
+      "weeklyStops": {
+        "local": 120,
+        "emu3000": 0
+      }
     },
     {
       "code": "7362",
@@ -1903,7 +2614,10 @@
       "ename": "Badouzi",
       "county": "新北市",
       "address": "新北市瑞芳區建基路2段121號隔壁 砂子里省道臺 2 線 (與新北市瑞芳區交界處、無站房)",
-      "dailyStops": 17
+      "weeklyStops": {
+        "local": 120,
+        "emu3000": 0
+      }
     },
     {
       "code": "7380",
@@ -1911,7 +2625,10 @@
       "ename": "Sijiaoting",
       "county": "新北市",
       "address": "新北市瑞芳區吉慶里中央路 65 號",
-      "dailyStops": 78
+      "weeklyStops": {
+        "local": 545,
+        "emu3000": 0
+      }
     },
     {
       "code": "7390",
@@ -1919,7 +2636,10 @@
       "ename": "Nuannuan",
       "county": "基隆市",
       "address": "基隆市暖暖區暖暖里暖暖街 51 號",
-      "dailyStops": 73
+      "weeklyStops": {
+        "local": 512,
+        "emu3000": 0
+      }
     }
   ]
 }

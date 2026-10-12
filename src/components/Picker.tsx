@@ -1,8 +1,4 @@
-export interface PickerOption {
-  label: string
-  // 這個選項底下有幾站
-  count: number
-}
+import type { PickerOption } from '../lib/trip'
 
 interface PickerProps {
   options: readonly PickerOption[]

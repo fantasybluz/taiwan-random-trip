@@ -1,14 +1,31 @@
 // stations.json 由 scripts/fetch-stations.mjs 從台鐵開放資料產生，要更新跑 npm run stations
 import data from './stations.json'
 
+// 兩個版本：區間車（含區間快）、自強3000（EMU3000）
+export type Mode = 'local' | 'emu3000'
+
+export interface ModeInfo {
+  key: Mode
+  name: string
+  // 這個版本自己的網址 hash，可以直接分享
+  hash: string
+  // 一週少於這麼多班，結果就提醒先查回程
+  fewPerWeek: number
+}
+
+export const MODES: readonly ModeInfo[] = [
+  { key: 'local', name: '區間車', hash: '', fewPerWeek: 12 * 7 },
+  { key: 'emu3000', name: '自強3000', hash: '#emu3000', fewPerWeek: 4 * 7 },
+]
+
 export interface Station {
   code: string
   name: string
   ename: string
   county: string
   address: string
-  // 一天平均有幾班區間車（含區間快）停靠
-  dailyStops: number
+  // 一週有幾班停靠，0 是這種車不停
+  weeklyStops: Record<Mode, number>
 }
 
 export interface Region {
@@ -50,6 +67,15 @@ export const REGIONS: readonly Region[] = [
   },
 ]
 
-export function stationsIn(county: string): Station[] {
-  return STATIONS.filter((station) => station.county === county)
+export function modeInfo(mode: Mode): ModeInfo {
+  return MODES.find((info) => info.key === mode) ?? MODES[0]
+}
+
+export function stationsIn(county: string, mode: Mode): Station[] {
+  return STATIONS.filter((station) => station.county === county && station.weeklyStops[mode] > 0)
+}
+
+// 這個版本有車停的縣市；自強3000 沒有停南投縣，就不會出現在轉盤上
+export function countiesIn(region: Region, mode: Mode): string[] {
+  return region.counties.filter((county) => stationsIn(county, mode).length > 0)
 }

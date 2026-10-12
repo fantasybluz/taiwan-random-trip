@@ -1,3 +1,45 @@
+/* ---------- 區間車／自強3000 切換 ---------- */
+
+.modes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 4px 0;
+}
+
+.modes__tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 12px 12px;
+  white-space: nowrap;
+  border: 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--muted);
+  background: var(--panel-dark);
+  box-shadow: var(--outline);
+  cursor: pointer;
+}
+
+.modes__tab:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.modes__tab--active {
+  color: var(--ink);
+  background: var(--yellow);
+  box-shadow: var(--outline), inset -4px -4px 0 var(--yellow-dark);
+  cursor: default;
+}
+
+.modes__count {
+  font-size: 12px;
+  line-height: 16px;
+  opacity: 0.75;
+}
+
 /* ---------- 步驟列 ---------- */
 
 .steps {
@@ -178,6 +220,10 @@
 
 .ticket__info dd {
   margin: 0;
+}
+
+.ticket__service {
+  display: block;
 }
 
 .ticket__warn {
