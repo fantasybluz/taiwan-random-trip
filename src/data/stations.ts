@@ -74,8 +74,3 @@ export function modeInfo(mode: Mode): ModeInfo {
 export function stationsIn(county: string, mode: Mode): Station[] {
   return STATIONS.filter((station) => station.county === county && station.weeklyStops[mode] > 0)
 }
-
-// 這個版本有車停的縣市；自強3000 沒有停南投縣，就不會出現在轉盤上
-export function countiesIn(region: Region, mode: Mode): string[] {
-  return region.counties.filter((county) => stationsIn(county, mode).length > 0)
-}

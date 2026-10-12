@@ -156,6 +156,114 @@
   color: var(--text-soft);
 }
 
+/* ---------- 排除縣市 ---------- */
+
+.filter {
+  margin: 28px 4px 4px;
+  background: var(--panel);
+  box-shadow: var(--outline), inset -4px -4px 0 var(--panel-dark);
+}
+
+.filter__summary {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 12px 16px 16px;
+  font-size: 24px;
+  line-height: 28px;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Safari 的 summary 三角形要用這個才藏得掉 */
+/* stylelint-disable-next-line selector-no-vendor-prefix */
+.filter__summary::-webkit-details-marker {
+  display: none;
+}
+
+.filter__summary::before {
+  content: "+";
+  color: var(--yellow);
+}
+
+.filter[open] .filter__summary::before {
+  content: "-";
+}
+
+.filter__status {
+  margin-left: auto;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--muted);
+}
+
+.filter__help {
+  margin: 0 16px 12px;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--muted);
+}
+
+.filter__group {
+  padding: 0 16px 12px;
+}
+
+.filter__region {
+  margin: 0 0 4px;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--yellow);
+}
+
+.filter__counties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter__actions {
+  padding: 0 16px 16px;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  min-height: 40px;
+  margin: 4px;
+  padding: 8px 10px 10px;
+  border: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--ink);
+  background: var(--cream);
+  box-shadow: var(--outline), inset -4px -4px 0 var(--cream-dark);
+  cursor: pointer;
+}
+
+.toggle:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.toggle__count {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-soft);
+}
+
+/* 排除的縣市：壓暗加刪除線 */
+.toggle--off {
+  color: var(--muted);
+  text-decoration: line-through;
+  background: var(--panel-dark);
+  box-shadow: var(--outline);
+}
+
+.toggle--off .toggle__count {
+  color: var(--muted);
+}
+
 /* ---------- 結果：一張紙本車票 ---------- */
 
 .ticket {

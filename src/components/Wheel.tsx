@@ -177,6 +177,10 @@ export function Wheel(props: WheelProps) {
       return {
         spin: () =>
           new Promise<number>((resolve) => {
+            if (count === 0) {
+              resolve(-1)
+              return
+            }
             const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
             const index = Math.floor(Math.random() * count)
             const turns = reduceMotion ? 1 : 5 + Math.floor(Math.random() * 3)
