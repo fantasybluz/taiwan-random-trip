@@ -1,0 +1,159 @@
+/* ---------- 月台的橘色 LED 看板 ---------- */
+
+.board {
+  margin: 4px;
+  padding: 8px 12px;
+  text-align: center;
+  color: var(--amber);
+  background-color: var(--led-bg);
+  background-image: repeating-linear-gradient(transparent 0 3px, rgb(0 0 0 / 35%) 3px 4px);
+  box-shadow: var(--outline), inset 4px 4px 0 var(--led-shadow);
+}
+
+.board__caption {
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--amber-dim);
+}
+
+/* 固定高度，轉動時字換來換去版面才不會跳 */
+.board__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  margin: 4px 0;
+  overflow: hidden;
+  font-size: 36px;
+  line-height: 48px;
+  white-space: nowrap;
+  text-shadow: 0 0 8px rgb(255 181 60 / 50%);
+}
+
+.board__text--waiting {
+  font-size: 24px;
+  animation: blink 1s steps(1) infinite;
+}
+
+.board__sub {
+  min-height: 16px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--amber-dim);
+}
+
+@media (width >= 880px) {
+  .board__text {
+    height: 60px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+/* ---------- 轉盤 ---------- */
+
+.wheel {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: min(100%, 520px);
+  aspect-ratio: 1;
+  margin: 32px auto 0;
+  animation: wheel-in 0.4s steps(4, end);
+}
+
+.wheel__disc {
+  display: block;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 8px 0 rgb(0 0 0 / 35%));
+}
+
+/* 指針只用 margin 置中，transform 留給跳動的動畫 */
+.wheel__pointer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.wheel__pointer svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 底下的紅色按鈕是畫布畫的，這顆按鈕本身透明，只放字 */
+.wheel__hub {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: var(--cream);
+  text-shadow:
+    2px 2px 0 var(--red-dark),
+    2px 0 0 var(--red-dark),
+    0 2px 0 var(--red-dark);
+  background: transparent;
+  cursor: pointer;
+}
+
+.wheel__hub:disabled {
+  color: var(--cream-dark);
+  text-shadow: 2px 2px 0 var(--ink);
+  cursor: default;
+}
+
+.wheel__hub:active:not(:disabled) > * {
+  transform: translateY(2px);
+}
+
+.wheel__hub-label,
+.wheel__hub-sub {
+  display: block;
+}
+
+.wheel__hub-label {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.wheel__hub-sub {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media (width >= 880px) {
+  .wheel__hub-label {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@keyframes wheel-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wheel,
+  .board__text--waiting {
+    animation: none;
+  }
+}

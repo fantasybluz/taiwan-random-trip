@@ -1,0 +1,214 @@
+/* 俐方體 11 號（Cubic 11），12px 網格的像素字型，字級用 12 的倍數最清楚；授權見 assets/fonts/OFL.txt */
+@font-face {
+  font-family: "Cubic11";
+  src: url("../assets/fonts/Cubic_11.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --ink: #1b1b2f;
+  --bg: #2b2d42;
+  --bg-dot: #3a3d5c;
+  --panel: #3a3d5c;
+  --panel-dark: #24263a;
+  --cream: #fff7e3;
+  --cream-dark: #e6d8b8;
+  --text-soft: #7a6f57;
+  --muted: #a3a6c4;
+  --yellow: #ffd23f;
+  --yellow-dark: #d9a400;
+  --red: #e63946;
+  --red-dark: #a4161a;
+  --amber: #ffb53c;
+  --amber-dim: #a8701c;
+  --led-bg: #1a0f05;
+  --led-shadow: #0d0702;
+
+  /* 像素外框：只畫上下左右四條，四個角留空，看起來像像素圓角 */
+  --outline: 0 -4px 0 0 var(--ink), 0 4px 0 0 var(--ink), -4px 0 0 0 var(--ink), 4px 0 0 0 var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  font-family: "Cubic11", "PingFang TC", "Noto Sans TC", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cream);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(90deg, var(--bg) 21px, transparent 21px),
+    linear-gradient(var(--bg) 21px, var(--bg-dot) 21px);
+  background-size: 24px 24px;
+  -webkit-font-smoothing: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  appearance: none;
+}
+
+:focus-visible {
+  outline: 4px solid var(--yellow);
+  outline-offset: 4px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.app {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 24px 16px 32px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  color: var(--yellow);
+  text-shadow:
+    4px 4px 0 var(--ink),
+    4px 0 0 var(--ink),
+    0 4px 0 var(--ink);
+}
+
+.header__tagline {
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--muted);
+}
+
+@media (width >= 880px) {
+  .header__title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+.layout {
+  display: grid;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+@media (width >= 880px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 400px);
+    align-items: start;
+    gap: 36px;
+  }
+
+  .layout__side {
+    position: sticky;
+    top: 24px;
+  }
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  min-height: 48px;
+  margin-top: 28px;
+}
+
+/* ---------- 按鈕 ---------- */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  margin: 4px;
+  padding: 8px 16px 12px;
+  border: 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--yellow);
+  box-shadow: var(--outline), inset -4px -4px 0 var(--yellow-dark);
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.button:active:not(:disabled) {
+  padding: 12px 16px 8px;
+  box-shadow: var(--outline), inset 4px 4px 0 var(--yellow-dark);
+}
+
+.button--ghost {
+  color: var(--cream);
+  background: var(--panel);
+  box-shadow: var(--outline), inset -4px -4px 0 var(--panel-dark);
+}
+
+.button--ghost:active:not(:disabled) {
+  box-shadow: var(--outline), inset 4px 4px 0 var(--panel-dark);
+}
+
+/* 印在車票上的按鈕 */
+.button--paper {
+  background: var(--cream);
+  box-shadow: var(--outline), inset -4px -4px 0 var(--cream-dark);
+}
+
+.button--paper:active:not(:disabled) {
+  box-shadow: var(--outline), inset 4px 4px 0 var(--cream-dark);
+}
+
+.button--small {
+  min-height: 36px;
+  padding: 6px 12px 10px;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.button--small:active:not(:disabled) {
+  padding: 10px 12px 6px;
+}
+
+.footer {
+  margin-top: 48px;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.footer a {
+  color: var(--cream);
+}
